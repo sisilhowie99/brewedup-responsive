@@ -120,8 +120,8 @@ header h1 {
     margin-bottom: 20px;
 }
 
-/* Projects section */
-.projects {
+/* Photos and Coffees section */
+.photos, .coffees {
     min-width: 350px;
     width: 85%;
     height: auto;
@@ -135,18 +135,7 @@ header h1 {
     align-content: center;
 }
 
-.project {
-    width: 100%;
-    height: auto;
-    margin: 20px auto;
-    display: flex;
-    justify-content: left;
-    align-items: space-evenly;
-    align-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.project-logo {
+.photos img, .coffees img {
     width: 30%;
     height: auto;
     margin: 10px;
