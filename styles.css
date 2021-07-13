@@ -235,7 +235,7 @@ footer {
 }
 
 /* Mobile screen landscape */
-@media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {   
+@media only screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {   
     /* Font sizes */
     html {
         font-size: 16px;
