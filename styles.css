@@ -96,6 +96,10 @@ header h1 {
 }
 
 /* Main styles */
+main {
+    position: relative;
+    top: 50px;
+}
 
 /* about section */
 .about {
@@ -155,7 +159,7 @@ footer {
     flex-wrap: wrap;
     align-content: center;
     background-color: rgb(245, 245, 245);
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .copyright {
