@@ -30,6 +30,9 @@ header {
     background-image: url('./resources/images/splash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
 }
 
 nav {
