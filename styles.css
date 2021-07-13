@@ -109,7 +109,7 @@ header h1 {
     align-content: center;
 }
 
-.about h1, .projects h1 {
+.about h1, .photos h1, .coffees h1 {
     width: 100%;
     margin: 20px auto;
     text-align: center;
