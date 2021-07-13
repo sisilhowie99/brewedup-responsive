@@ -1,0 +1,217 @@
+/* Universal styles */
+* {
+    font-family: sans-serif, 'Times New Roman', Arial;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: Montserrat;
+}
+
+p {
+    font-family: 'Noto Sans';
+    line-height: 2;
+}
+
+a {
+    font-family: Roboto;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url('./resources/images/splash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    min-width: 350px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+.navlinks {
+    width: 50%;
+    height: auto;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.navlinks a {
+    width: 50px;
+    flex: 2 3 1;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 1, 48);
+}
+
+.navlinks a:hover {
+    border-radius: 25px;
+    background-color: rgb(0, 1, 48);
+    color: #fff;
+}
+
+header h1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.75);
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+/* Main styles */
+
+/* Mission section */
+.mission {
+    min-width: 350px;
+    width: 85%;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.mission h1, .projects h1 {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    flex: 2 3 1;
+}
+
+.mission p {
+    margin-bottom: 20px;
+}
+
+/* Projects section */
+.projects {
+    min-width: 350px;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.project {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: left;
+    align-items: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-logo {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    float: left;
+    flex: 2 3 1;
+}
+
+.description {
+    width: 65%;
+    height: auto;
+    float: right;
+    margin: 10px auto;
+    flex: 2 3 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.location {
+    width: 100%;
+    margin: 15px auto;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+/* Footer styles */
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgb(245, 245, 245);
+    margin-top: 50px;
+}
+
+.copyright {
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+
+.contact {
+    width: 60%;
+    height: auto;
+    text-align: right;
+    flex: 2 1 1;
+}
+
+.socials img {
+    width: 7%;
+    height: auto;
+    margin: 0 10px;
+}
+
+.socials img:hover {
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+}
+
+.disabled {
+    display: none;
+}
