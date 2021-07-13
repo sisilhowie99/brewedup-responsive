@@ -94,8 +94,8 @@ header h1 {
 
 /* Main styles */
 
-/* Mission section */
-.mission {
+/* about section */
+.about {
     min-width: 350px;
     width: 85%;
     height: auto;
@@ -109,14 +109,14 @@ header h1 {
     align-content: center;
 }
 
-.mission h1, .projects h1 {
+.about h1, .projects h1 {
     width: 100%;
     margin: 20px auto;
     text-align: center;
     flex: 2 3 1;
 }
 
-.mission p {
+.about p {
     margin-bottom: 20px;
 }
 
