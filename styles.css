@@ -190,7 +190,7 @@ footer {
     display: none;
 }
 
-/* Mobile screen */
+/* Mobile screen portrait */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
     /* Header */
     .navlinks {
@@ -201,7 +201,7 @@ footer {
         padding: 5px;
     }
 
-    /* Main - photos and coffees */
+    /* Photos and coffees */
     .photos, .coffees {
         padding: 10px;
         flex-direction: column;
@@ -231,6 +231,60 @@ footer {
 
     .socials img {
         width: 10%;
+    }
+}
+
+/* Mobile screen landscape */
+@media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {   
+    /* Font sizes */
+    html {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    /* Header */
+    header {
+        position: relative;
+        top: 200px;
+        height: 130vh;
+    }
+
+    nav {
+        height: auto;
+    }
+
+    #logo {
+        width: 200px;
+        height: auto;
+    }
+
+    .navlinks a {
+        width: 100px;
+        font-size: 2rem;
+    }
+
+    /* Main */
+    main {
+        position: relative;
+        top: 150px;
+    }
+
+    /* Photos and coffee */
+    .photos img, .coffees img {
+        width: 35%;
+        height: auto;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 200px;
     }
 }
 
