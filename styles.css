@@ -289,11 +289,37 @@ footer {
 }
 
 /* Tablet screen - portrait */
-@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 480px) and (max-width: 768px) and (orientation: portrait) {
+    /* Header */
+    .navlinks {
+        width: 65%;
+    }
+    
+    .navlinks a {
+        padding: 5px;
+    }
 
-}
+    .photos img, .coffees img {
+        width: 40%;
+        height: auto;
+    }
 
-/* Tablet screen - landscape */
-@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Footer */
+    footer {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
 
+    .copyright, .contact {
+        width: 100%;
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    .socials img {
+        width: 10%;
+    }
 }
