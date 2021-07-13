@@ -154,27 +154,6 @@ header h1 {
     flex: 2 3 1;
 }
 
-.description {
-    width: 65%;
-    height: auto;
-    float: right;
-    margin: 10px auto;
-    flex: 2 3 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: space-evenly;
-    align-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.location {
-    width: 100%;
-    margin: 15px auto;
-    font-style: italic;
-    font-weight: 600;
-    font-size: 1em;
-}
-
 /* Footer styles */
 footer {
     width: 100%;
