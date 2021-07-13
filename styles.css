@@ -76,7 +76,7 @@ nav {
 
 .navlinks a:hover {
     border-radius: 25px;
-    background-color: rgb(0, 1, 48);
+    background-color: #6f4e37;
     color: #fff;
 }
 
@@ -87,8 +87,8 @@ header h1 {
     justify-items: center;
     justify-content: center;
     align-items: center;
-    background-color: rgba(245, 245, 245, 0.75);
-    color: rgba(0, 0, 0, 0.75);
+    background-color: #6f4e37ab;
+    color: #fff;
     text-align: center;
 }
 
